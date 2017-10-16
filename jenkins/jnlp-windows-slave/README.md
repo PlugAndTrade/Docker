@@ -9,4 +9,4 @@ Docker container for running Jenkins agent/slave on Windows 2016 Core
 
 To run the container and connect to a Jenkins CI server using JNLP:
 
-    docker run plugandtrade/jenkins-jnlp-windows-slave -jnlpUrl http://<server>:<port>/computer/<agent>/slave-agent.jnlp -secret <secret>
+    docker run -d plugandtrade/jenkins-jnlp-windows-slave -jnlpUrl http://<server>:<port>/computer/<agent>/slave-agent.jnlp -secret <secret>
