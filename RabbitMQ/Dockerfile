@@ -6,3 +6,4 @@ RUN wget -nc -O - https://dl.bintray.com/rabbitmq/community-plugins/3.7.0/rabbit
 RUN echo '[{rabbit, [{loopback_users, []}]}].' > /etc/rabbitmq/rabbitmq.config
 RUN rabbitmq-plugins enable --offline rabbitmq_delayed_message_exchange
 RUN rabbitmq-plugins enable --offline rabbitmq_shovel rabbitmq_shovel_management
+RUN rabbitmq-plugins enable --offline rabbitmq_peer_discovery_k8s
