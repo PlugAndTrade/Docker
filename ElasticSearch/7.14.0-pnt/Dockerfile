@@ -1,6 +1,6 @@
-FROM elasticsearch:7.14.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.14.0
 
-MAINTAINER Mihaly Bak <mihaly@plug-n-trade.com>
+MAINTAINER Joel Gullander <jag@joelgullander.se>
 
 RUN apk update
 RUN apk add zip
