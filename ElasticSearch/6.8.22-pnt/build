@@ -1,0 +1,2 @@
+docker build -t plugandtrade/elasticsearch:6.8.22-pnt .
+docker push plugandtrade/elasticsearch:6.8.22-pnt

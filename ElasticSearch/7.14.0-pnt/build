@@ -1,0 +1,2 @@
+docker build -t plugandtrade/elasticsearch:7.14.0-pnt .
+docker push plugandtrade/elasticsearch:7.14.0-pnt
